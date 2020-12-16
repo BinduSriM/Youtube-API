@@ -2,8 +2,8 @@
 if(isset($_GET['Search'])){
 if ($_GET['q']) {
   // Call set_include_path() as needed to point to your client library.
-  require_once ($_SERVER["DOCUMENT_ROOT"].'/phpfiles/google-api-php-client/src/Google_Client.php');
-  require_once ($_SERVER["DOCUMENT_ROOT"].'/phpfiles/google-api-php-client/src/contrib/Google_YouTubeService.php');
+  require_once ($_SERVER["DOCUMENT_ROOT"].'/google-api-php-client/src/Google_Client.php');
+  require_once ($_SERVER["DOCUMENT_ROOT"].'/google-api-php-client/src/contrib/Google_YouTubeService.php');
 
   /* Set $DEVELOPER_KEY to the "API key" value from the "Access" tab of the
   Google APIs Console <http://code.google.com/apis/console#access>
